@@ -1,22 +1,19 @@
 {
-  "dependencies": {
-    "inquirer": "^9.2.11"
-  },
-  "name": "calculator",
+  "name": "number-guessing-game",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "index.js/dist",
   "type": "module",
-  "devDependencies": {
-    "@types/inquirer": "^9.0.3"
-  },
-  "bin": {
-    "jt-multiply": "dist/index.js"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "inquirer": "^9.2.11"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.4"
+  }
 }
